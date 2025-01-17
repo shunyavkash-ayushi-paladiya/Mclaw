@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-    max-width: 1314px;
+    max-width: 1440px;
     margin: auto;
     padding: 0 20px;
     width: 100%;
@@ -244,5 +244,18 @@ a {
 svg.icon.icon-tabler.icons-tabler-outline.icon-tabler-arrow-right {
     padding-top: 10px;
 }
+
+/* third section  */
+
+.meditation-inner{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F8F8F8;
+    margin-top: 80px;
+}
+.left-section{
+    text-align: left;
+}
+    
 
 
