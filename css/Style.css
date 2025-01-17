@@ -20,7 +20,8 @@ body {
 .container {
     max-width: 1314px;
     margin: auto;
-    padding: 20px 0;
+    padding: 0 20px;
+    width: 100%;
 }
 
 a {
@@ -34,6 +35,8 @@ a {
     top: 0;
     background-color: var(--theme-white);
     width: 100%;
+    z-index: 999;
+    padding: 10px;
 }
 
 .header-inner {
@@ -93,13 +96,29 @@ a {
 
 .hero-section img{
     width: 100%;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    height: 100%;
+    z-index: 0;
+    object-fit: cover;
 }
 
-.hero-inner{
-    position: absolute;
-    top: 35%;
-    right: 55%;
-    margin: auto;
+.hero-section .hero-inner{
+  
+   position: relative;
+   z-index: 1;
+   padding: 180px 0;
+   min-height: 100vh;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.hero-section{
+    display: flex;
+    margin-top: 160px;
+    margin-right: 120px;
 }
 
 .hero-text{
@@ -151,15 +170,20 @@ a {
 
 .primary{
     background-color: var(--theme-blue);
-    position: absolute;
-    width: 100%;
-    height: 600px;
-    top: 85%;
+    padding-bottom: 100px;
+}
+
+.primary-container{
+    max-width: 1314px;
+    margin: auto;
+    margin-top: -160px;
 }
 
 .primary-inner{
-    padding-top: 10px;
+    padding-top: 80px;
     text-align: center;
+    width: 100%;
+    height: 550px;
 }
 
 .primary-heading{
@@ -170,11 +194,55 @@ a {
 
 .primary-para{
     color: #F8F8F8;
-    font-size: 60px;
+    font-size: 55px;
     font-weight: 300;
 }
 
 .primary-head{
     color: grey;
 }
+
+/* secondary section  */
+
+.secondary-inner{
+    padding-top: 70px;
+}
+
+.secondary-text{
+    text-align: justify;
+}
+
+.secondary-header{
+    font-size: 14px;
+    color: #aba6a6;
+    font-family: var(--font-family);
+    font-weight: 500;
+}
+
+.secondary-para strong{
+    font-size: 45px;
+    color: var(--theme-blue);
+    font-family: var(--font-family);
+    font-weight: 400;
+}
+
+.secondary-para span{
+    font-size: 20px;
+    color: #696868;
+    font-family: var(--font-family);
+    font-weight: 400;
+}
+
+.secondary-anchor{
+    font-size: 22px;
+    color: #192647;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+}
+
+svg.icon.icon-tabler.icons-tabler-outline.icon-tabler-arrow-right {
+    padding-top: 10px;
+}
+
 
