@@ -291,18 +291,14 @@ svg.icon.icon-tabler.icons-tabler-outline.icon-tabler-arrow-right {
     flex: 1;
 }
 
-.meditation-text {
-    text-align: left;
-    padding-bottom: 20px;
-    margin-top: 70px;
-    margin-left: 70px;
-}
+
 
 .meditation-head {
     font-size: 12px;
     color: #b6b5b5;
     text-transform: uppercase;
     font-weight: 400;
+    padding-left: 140px;
 }
 
 .bold-text {
@@ -310,6 +306,7 @@ svg.icon.icon-tabler.icons-tabler-outline.icon-tabler-arrow-right {
     font-size: 45px;
     font-weight: 300;
     color: #192647;
+    padding-left: 138px;
 }
 
 .meditation-heading {
@@ -318,6 +315,7 @@ svg.icon.icon-tabler.icons-tabler-outline.icon-tabler-arrow-right {
     font-weight: 400;
     display: flex;
     justify-content: space-between;
+    padding-left: 140px;
 }
 
 .svg-icon {
