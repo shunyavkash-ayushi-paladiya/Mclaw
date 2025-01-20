@@ -298,7 +298,6 @@ svg.icon.icon-tabler.icons-tabler-outline.icon-tabler-arrow-right {
     color: #b6b5b5;
     text-transform: uppercase;
     font-weight: 400;
-    padding-left: 140px;
 }
 
 .bold-text {
@@ -306,11 +305,9 @@ svg.icon.icon-tabler.icons-tabler-outline.icon-tabler-arrow-right {
     font-size: 45px;
     font-weight: 300;
     color: #192647;
-    padding-left: 138px;
 }
 
 .meditation-heading {
-    padding-top: 40px;
     font-size: 18px;
     font-weight: 400;
     display: flex;
