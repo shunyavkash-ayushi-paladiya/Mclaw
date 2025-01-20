@@ -1,0 +1,119 @@
+@media screen and (max-width:866px) {
+    .heading {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .unorderlist{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+
+    .options {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .unorderlist {
+        width: 100%;
+        top: 60px; /* Adjust as needed depending on header height */
+        left: 0;
+    }
+
+    .options.active .unorderlist {
+        display: block;
+        position: absolute;
+        background-color: var(--theme-white);
+        margin-top: 20px;
+        text-align: center;
+        align-items: center;
+        width: 50%;
+        height: 100%;
+        padding: 10px 0 10px 0;
+        box-sizing: border-box;
+        
+    }
+
+    .header-anchor{
+        display: none;
+    }
+    .hero-text strong{
+        font-size: 45px;
+        font-weight: 400;
+    }
+    .primary-para{
+        font-size: 45px;
+    }
+    .secondary-para strong{
+        font-size: 25px;
+    }
+    .secondary-para span{
+        font-size: 15px;
+    }
+    .secondary-anchor{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .hero-section img{
+        width: 100%;
+    } 
+    .primary-inner{
+        text-align: center;
+        width: 100%;
+        padding-top:70px ;
+        padding-bottom:100px ;
+    }
+    
+    .primary-heading{
+        color: #EFEFEF;
+        font-size: 70px;
+        font-weight: 400;
+    }
+    
+    .primary-para{
+        color: #F8F8F8;
+        font-size: 35px;
+        font-weight: 300;
+    }
+    
+    .primary-head{
+        color: grey;
+        margin-top: 60px;
+    }  
+    .secondary-text{
+        text-align: left;
+        padding-left: 40px;
+    }
+    
+    .secondary-header{
+        font-size: 12px;
+        color: #aba6a6;
+        font-family: var(--font-family);
+        font-weight: 500;
+    }
+    
+    .anchor{
+        margin-top: 40px;
+        padding-left: 42px;
+    }
+    
+    .secondary-para strong{
+        font-size: 40px;
+        color: var(--theme-blue);
+        font-family: var(--font-family);
+        font-weight: 400;
+    }
+    
+    .secondary-para span{
+        font-size: 20px;
+        color: #696868;
+        font-family: var(--font-family);
+        font-weight: 400;
+    }
+}
