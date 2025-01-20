@@ -110,7 +110,7 @@ a {
 
 /* hero section  */
 
-.hero-section img{
+.hero-section img {
     width: 100%;
     position: absolute;
     top: 0%;
@@ -120,45 +120,42 @@ a {
     object-fit: cover;
 }
 
-.hero-section .hero-inner{
-  
-   position: relative;
-   z-index: 1;
-   padding: 180px 0;
+.hero-section .hero-inner {
+    position: relative;
+    z-index: 1;
 }
 
-.hero-section{
+.hero-section {
     display: flex;
     min-height: 100vh;
     align-items: center;
     justify-content: center;
-
 }
 
-.hero-text{
+.hero-text {
     font-family: var(--font-family);
     color: var(--theme-white);
 }
 
-.hero-text span{
+.hero-text span {
     font-size: 16px;
     font-weight: 500;
     margin-left: 7px;
     color: #EFEFEF;
 }
 
-.hero-text strong{
+.hero-text strong {
     font-size: 60px;
     font-weight: 400;
 }
 
-.buttons{
+.buttons {
     display: flex;
     gap: 13px;
     margin-top: 25px;
 }
 
-.what-button{
+.what-button {
     background-color: var(--theme-blue);
     border: 1px solid var(--theme-blue);
     border-radius: 50px;
@@ -170,7 +167,7 @@ a {
     color: #F8F8F8;
 }
 
-.case-button{
+.case-button {
     border: 1px solid var(--theme-white);
     border-radius: 50px;
     padding: 13px;
@@ -271,38 +268,51 @@ svg.icon.icon-tabler.icons-tabler-outline.icon-tabler-arrow-right {
 
 /* third section  */
 
-.meditation-inner{
-    display: flex;
-    justify-content: space-between;
-    background-color: #F8F8F8;
-    margin-top: 80px;
+.meditation-container{
+    max-width: 1440px;
+    margin: 0 auto;
     width: 100%;
 }
 
-
-
-.meditation-text{
-    text-align: left;
-    padding-left: 140px;
-    padding-top: 70px;
+.meditation-inner {
+    background-color: #F8F8F8;
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
-.meditation-head{
+.left-section {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.right-section {
+    flex: 1;
+}
+
+.meditation-text {
+    text-align: left;
+    padding-bottom: 20px;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+.meditation-head {
     font-size: 12px;
     color: #b6b5b5;
     text-transform: uppercase;
     font-weight: 400;
 }
 
-
-.bold-text{
+.bold-text {
     padding-top: 65px;
     font-size: 45px;
     font-weight: 300;
     color: #192647;
 }
 
-.meditation-heading{
+.meditation-heading {
     padding-top: 40px;
     font-size: 18px;
     font-weight: 400;
@@ -310,51 +320,38 @@ svg.icon.icon-tabler.icons-tabler-outline.icon-tabler-arrow-right {
     justify-content: space-between;
 }
 
-.svg-icon{
+.svg-icon {
     border: 1px solid #EBEBEB;
     border-radius: 50px;
     width: 30px;
     height: 30px;
     text-align: center;
+    cursor: pointer;
 }
 
-.mediation-span{
+.mediation-span {
     font-size: 12px;
     font-weight: 400;
     color: #9c9d9f;
 }
 
-.meditation-para{
+.meditation-para {
     padding-top: 20px;
+    display: none; 
 }
-
-.border-div{
-    border-bottom: 1px solid #b8b3b3;
-    padding-top: 30px;
-    display: block;
-}
-
-.meditation-para{
-    display: none;
-}
-
 
 .meditation-para.active {
     display: block;
-    position: absolute;
-    text-align: center;
-    align-items: center;
-    
+    position: relative;
 }
 
-.faqs{
-    border-bottom: 1px solid #b8b3b3;   
+.faqs {
+    border-bottom: 1px solid #b8b3b3;
 }
 
-.meditation-heading{
-    padding-bottom: 20px;
+.right-section img {
+    width: 100%;
+    object-fit: cover;
 }
 
-.right-section{
-object-fit: cover;
-}
+

@@ -8,6 +8,7 @@
     .unorderlist{
         display: none;
     }
+
     .hamburger{
         display: block;
     }
@@ -57,6 +58,31 @@
     .secondary-anchor{
         font-size: 17px;
     }
+    .meditation-inner{
+        display: flex;
+        justify-content: space-between;
+    }    
+    .meditation-text{
+        padding-left: 30px;
+        padding-top: 70px;
+    }
+    .right-section img{
+        width: 100%;
+        margin-top: 120px;
+        height: 100vh;
+    }
+    .mediation-span{
+        font-size: 10px;
+    }
+    .heading {
+        display: none;
+    }
+    
+    .heading-1{
+        font-size: 30px;
+        display: block;
+    }
+    
 }
 
 @media screen and (max-width:575px) {
@@ -116,4 +142,71 @@
         font-family: var(--font-family);
         font-weight: 400;
     }
+    .meditation-inner{
+        display: block;
+    }    
+    .meditation-text{
+        padding-left: 30px;
+        padding-top: 70px;
+    }
+    .right-section img{
+        width: 100%;
+        margin-top: 120px;
+    }
+    .mediation-span{
+        font-size: 10px;
+    }
+    .hero-section {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
+    }
+
+    .hero-section img {
+        position: relative;
+        padding-top: 70px;
+        min-height: 450px;
+    }
+
+    .hero-text span {
+        color: #707070;
+        font-size: 12px;
+    }
+
+    .hero-text strong {
+        font-size: 40px;
+        font-weight: 400;
+        color: var(--theme-blue);
+        font-family: var(--font-family);
+    }
+
+    .hero-section .hero-inner {
+        position: relative;
+        z-index: 1;
+    }
+
+    .hero-inner {
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .hero-text {
+        font-size: 18px;
+    }
+
+    .hero-text strong {
+        font-size: 40px;    
+    }
+
+    .buttons {
+        flex-direction: row;
+        gap: 15px;
+        margin-top: 20px;
+        justify-content: center;
+    }
+    .case-button{
+        color: var(--theme-blue);
+        border: 1px solid #b6b5b5;
+    }
+    
 }
