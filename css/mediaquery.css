@@ -82,6 +82,13 @@
         font-size: 30px;
         display: block;
     }
+
+    .card-main{
+        padding-top: 25px;
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+        gap: 50px;
+    }
     
 }
 
@@ -209,4 +216,10 @@
         border: 1px solid #b6b5b5;
     }
     
+    .card-main {
+        display: block;
+    }
+    .ternory-card{
+        display: block;
+    }
 }
