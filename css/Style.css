@@ -439,8 +439,38 @@ svg.icon.icon-tabler.icons-tabler-outline.icon-tabler-arrow-right {
 
 .third-party-inner{
     background-color: #ECEDED;
+    text-align: left;
 }
 
 .third-party{
-    
+    margin-top: 100px;
+    width: 100%;
+}
+
+.third-party-para{
+    font-size: 45px;
+    color: var(--theme-blue);
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+
+.third-party-text{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-left:65px;
+}
+
+.third-party-anchor{
+    font-size: 16px;
+    color: var(--theme-white);
+    font-weight: 500;
+    border: 1px solid var(--theme-blue);
+    background-color: var(--theme-blue);
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 13px ;
+    white-space: none;
+    box-sizing: border-box;
+    font-family: var(--font-family);
 }
