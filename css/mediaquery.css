@@ -163,7 +163,7 @@
     }
 
     .hero-section img {
-        position: relative;
+        position: static;
         padding-top: 70px;
         min-height: 450px;
     }
