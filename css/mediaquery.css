@@ -31,12 +31,13 @@
         background-color: var(--theme-white);
         margin-top: 20px;
         text-align: center;
-        align-items: center;
-        width: 50%;
-        height: 100%;
-        padding: 10px 0 10px 0;
         box-sizing: border-box;
-        
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .unorderlist li{
+        margin-top: 10px;
     }
 
     .header-anchor{
@@ -89,7 +90,54 @@
         grid-template-columns:repeat(2,1fr);
         gap: 50px;
     }
+
+    .third-party-para{
+        font-size: 40px;
+    }
     
+    .third-party-text{
+        padding-left: 40px;
+    }
+
+    .footer-inner {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        flex-direction: column;
+        align-items: center;    
+    }
+
+    .footer-unorderlist {
+        gap: 15px;  
+        padding-top: 30px;  
+        justify-content: center;  
+    }
+
+    .right-footer {
+        display: block;  
+        padding-bottom: 20px;
+    }
+
+    .ternory-list, .forth-list {
+        padding-top: 20px;
+    }
+
+    .footer-anchor {
+        font-size: 12px;  
+        padding: 10px 15px;
+    }
+
+    .footer-icon {
+        padding-top: 20px; 
+    }
+
+    .secondary-list {
+        padding-top: 20px;  
+    }
+
+    .blank-inner{
+        padding-top: 500px;
+        padding-bottom: 300px;
+    }
 }
 
 @media screen and (max-width:575px) {
@@ -152,6 +200,11 @@
     .meditation-inner{
         display: block;
     }    
+
+    .meditation-heading{
+        font-size: 12px;
+    }
+
     .meditation-text{
         padding-left: 30px;
         padding-top: 70px;
@@ -195,6 +248,7 @@
     .hero-inner {
         padding: 40px 20px;
         text-align: center;
+        background-color: var(--theme-white);
     }
 
     .hero-text {
@@ -214,12 +268,81 @@
     .case-button{
         color: var(--theme-blue);
         border: 1px solid #b6b5b5;
+        font-size: 10px;
     }
     
+    .what-button{
+        font-size: 10px;
+    }
+
     .card-main {
         display: block;
     }
     .ternory-card{
         display: block;
+    }
+    .third-party-para{
+        font-size: 30px;
+        color: var(--theme-blue);
+        font-weight: 300;
+    }
+
+    .footer-inner {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        flex-direction: column;  
+        align-items: center;     
+    }
+
+    .footer-unorderlist {
+        gap: 10px;  
+        padding-top: 40px;
+        font-size: 10px;
+        justify-content: center;
+    }
+
+    .right-footer {
+        display: block; 
+        padding-bottom: 10px;
+    }
+
+    .ternory-list, .forth-list {
+        padding-top: 15px;
+    }
+
+    .footer-anchor {
+        font-size: 10px;  
+        padding: 8px 12px;
+    }
+
+    .footer-icon {
+        margin-top: 10px; 
+    }
+
+    .footer-primary, .footer-secondary {
+        width: 100%; 
+        text-align: center;  
+    }
+
+    .secondary-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+    }
+
+    .ternory-list-head, .forth-list-head {
+        font-size: 12px; 
+    }
+
+    .ternory-list-para, .forth-list-para {
+        font-size: 12px; 
+    }
+
+    .ternory-list-num, .forth-list-num {
+        font-size: 12px;  
+    }
+
+    .ternory-list-span, .forth-list-span {
+        font-size: 8px;  
     }
 }

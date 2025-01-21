@@ -15,6 +15,7 @@
 body {
     font-size: 16px;
     font-family: "Fira Sans", sans-serif;
+    background-color: var(--theme-white);
 }
 
 .container {
@@ -130,12 +131,14 @@ a {
     min-height: 100vh;
     align-items: center;
     justify-content: center;
+    background-color: var(--theme-white);
 }
 
 .hero-text {
     font-family: var(--font-family);
     color: var(--theme-white);
 }
+
 
 .hero-text span {
     font-size: 16px;
@@ -217,6 +220,10 @@ a {
 
 .secondary-inner{
     padding-top: 70px;
+    padding-bottom: 70px;
+}
+.secondary{
+    background-color: var(--theme-white);
 }
 
 .secondary-text{
@@ -270,7 +277,6 @@ svg.icon.icon-tabler.icons-tabler-outline.icon-tabler-arrow-right {
 
 .meditation-inner {
     background-color: #F8F8F8;
-    margin-top: 80px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -315,6 +321,11 @@ svg.icon.icon-tabler.icons-tabler-outline.icon-tabler-arrow-right {
     display: flex;
     justify-content: space-between;
     text-align: center;
+}
+
+.meditation{
+    background-color: var(--theme-white);
+    padding-bottom: 100px;
 }
 
 .svg-icon {
@@ -362,8 +373,10 @@ svg.icon.icon-tabler.icons-tabler-outline.icon-tabler-arrow-right {
     text-align: center;
 }
 
+
 .card-inner{
     padding-top: 80px;
+    padding-bottom: 100px;
 }
 
 .card-head{
@@ -397,6 +410,7 @@ svg.icon.icon-tabler.icons-tabler-outline.icon-tabler-arrow-right {
 .cards{
     border: 1px solid #EFEFEF;
     padding-bottom: 20px;
+    background-color: var(--theme-white);
     width: 100%;
 }
 
@@ -434,17 +448,21 @@ svg.icon.icon-tabler.icons-tabler-outline.icon-tabler-arrow-right {
     padding-top: 10px;
 }
 
+.card{
+    background-color: var(--theme-white);
+}
 
 /* third party section  */
 
 .third-party-inner{
-    background-color: #ECEDED;
+    padding-top: 120px;
+    padding-bottom: 120px;
     text-align: left;
 }
 
 .third-party{
-    margin-top: 100px;
     width: 100%;
+    background-color: #ECEDED;
 }
 
 .third-party-para{
@@ -454,11 +472,6 @@ svg.icon.icon-tabler.icons-tabler-outline.icon-tabler-arrow-right {
     padding-bottom: 30px;
 }
 
-.third-party-text{
-    padding-top: 75px;
-    padding-bottom: 75px;
-    padding-left:65px;
-}
 
 .third-party-anchor{
     font-size: 16px;
@@ -473,4 +486,122 @@ svg.icon.icon-tabler.icons-tabler-outline.icon-tabler-arrow-right {
     white-space: none;
     box-sizing: border-box;
     font-family: var(--font-family);
+}
+
+/* blank section  */
+ 
+.blank-inner{
+    padding-top: 120px;
+    padding-bottom: 210px;
+}
+
+
+/* footer section  */
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    background-color: var(--theme-blue);
+    width: 100%;
+    z-index: -1;
+}
+
+.footer-inner{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-anchor{
+    border: 1px solid #EBEBEB;
+    border-radius: 50px;
+    padding: 13px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    color: var(--theme-white);
+}
+
+.footer-unorderlist{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    color: var(--theme-white);
+    padding-top: 110px;
+}
+
+.footer-icon{
+    background-color: var(--theme-blue);
+}
+
+.secondary-list{
+    list-style-type: none;
+}
+
+.right-footer{
+    display: flex;
+    gap: 120px;
+    padding-bottom: 30px;
+}
+
+.ternory-list{
+    list-style-type: none;
+}
+
+.forth-list{
+    list-style-type: none;
+}
+
+.footer-secondary{
+    padding-top: 35px;
+}
+
+.ternory-list-head{
+    color: var(--theme-white);
+    font-size: 14px;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+.ternory-list-para{
+    color: #8d8989;
+    font-size: 14px;
+}
+
+.ternory-list-span{
+    color:#8d8989 ;
+    font-size: 10px;
+    padding-top: 20px;
+}
+
+.ternory-list-num{
+    color: #cbcbcf;
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.forth-list-head{
+    color: var(--theme-white);
+    font-size: 14px;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+.forth-list-para{
+    color: #8d8989;
+    font-size: 14px;
+}
+
+.forth-list-span{
+    color:#8d8989 ;
+    font-size: 10px;
+    padding-top: 20px;
+}
+
+.forth-list-num{
+    color: #cbcbcf;
+    font-size: 14px;
+    padding-top: 20px;
 }
