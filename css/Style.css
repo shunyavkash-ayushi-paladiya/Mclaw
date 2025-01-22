@@ -39,13 +39,14 @@ a {
     background-color: var(--theme-white);
     width: 100%;
     z-index: 999;
-    padding: 10px;
+    padding: 30px;
 }
 
 .header-inner {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 39px;
 }
 
 .hamburger{
@@ -264,8 +265,9 @@ a {
     font-size: 22px;
     color: #192647;
     font-weight: 400;
-    text-align: center;
-    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 }
 
 .slideshow-container {
@@ -376,6 +378,7 @@ a {
     font-weight: 300;
     color: #192647;
     border-bottom: 1px solid #cbcbcf;
+    padding-bottom: 20px;
 }
 
 .meditation-heading {
@@ -384,6 +387,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color:#F8F8F8 ;
 }
 
 .meditation{
@@ -391,12 +395,15 @@ a {
 }
 
 .svg-icon {
-    border: 1px solid #c7c2c2;
+    font-size: 22px;
+    color: #192647;
+    font-weight: 400;
+    border: 1px solid #afb0b2;
     border-radius: 50px;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     text-align: center;
-    cursor: pointer;
+    padding-top: 7px;
 }
 
 .mediation-span {
@@ -408,6 +415,7 @@ a {
 .meditation-para {
     padding-top: 20px;
     display: none; 
+    background-color:#F8F8F8 ;
 }
 
 .meditation-para.active {
@@ -488,13 +496,16 @@ a {
 }
 
 .card-icon {
-    border: 1px solid var(--theme-blue);
+    font-size: 22px;
     margin-top: 20px;
+    color: #192647;
+    font-weight: 400;
+    border: 1px solid var(--theme-blue);
     border-radius: 50px;
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     text-align: center;
-    cursor: pointer;
+    padding-top: 6px;
 }
 
 .card-header{
@@ -590,6 +601,7 @@ a {
 .footer-unorderlist{
     list-style-type: none;
     display: flex;
+    flex-direction: row;
     gap: 20px;
     color: var(--theme-white);
     padding-top: 110px;
@@ -604,7 +616,7 @@ a {
 }
 
 .right-footer{
-    display: flex;
+    display: flex;  
     gap: 120px;
     padding-bottom: 30px;
 }
