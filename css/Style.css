@@ -230,7 +230,6 @@ a {
 
 .secondary-text{
     text-align: left;
-    padding-left: 140px;
 }
 
 .secondary-header{
@@ -242,7 +241,6 @@ a {
 
 .anchor{
     margin-top: 40px;
-    padding-left: 140px;
 }
 
 .secondary-para strong{
@@ -270,10 +268,73 @@ a {
     margin-top: 20px;
 }
 
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
 
-svg.icon.icon-tabler.icons-tabler-outline.icon-tabler-arrow-right {
-    padding-top: 10px;
-}
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+
+  .dot {
+    cursor: pointer;
+    height: 1px;
+    width: 38px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
 
 /* accordian section  */
 
@@ -292,7 +353,8 @@ svg.icon.icon-tabler.icons-tabler-outline.icon-tabler-arrow-right {
 }
 
 .meditation-text {
-    padding-left: 96px;
+   align-items: center;
+   padding-left: 90px;
 }
 
 .right-section {
@@ -314,7 +376,6 @@ svg.icon.icon-tabler.icons-tabler-outline.icon-tabler-arrow-right {
     font-weight: 300;
     color: #192647;
     border-bottom: 1px solid #cbcbcf;
-    padding-bottom: 20px;
 }
 
 .meditation-heading {
@@ -322,12 +383,11 @@ svg.icon.icon-tabler.icons-tabler-outline.icon-tabler-arrow-right {
     font-weight: 400;
     display: flex;
     justify-content: space-between;
-    text-align: center;
+    align-items: center;
 }
 
 .meditation{
     background-color: var(--theme-white);
-    padding-bottom: 100px;
 }
 
 .svg-icon {
@@ -359,12 +419,13 @@ svg.icon.icon-tabler.icons-tabler-outline.icon-tabler-arrow-right {
 .right-section img {
     width: 100%;
     object-fit: cover;
-    height: 100%;
+    /* height: 100%; */
 }
 
 .faqs{
     border-bottom: 1px solid #cbcbcf;
-    padding-top: 46px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
  /* card section  */
@@ -711,5 +772,85 @@ svg.icon.icon-tabler.icons-tabler-outline.icon-tabler-arrow-right {
 .touch-button{
    font-size: 22px;
    color: #cbcbcf;
+}
+
+
+/* accordian section  */
+
+.accordian-inner {
+    background-color: #F8F8F8;
+    width: 100%;
+    text-align: left;
+    padding-top: 180px;
+    padding-left: 200px;
+}
+
+
+.accordian-text {
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #9c9d9f;
+}
+
+
+
+.accordian-head {
+    font-size: 12px;
+    color: #b6b5b5;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+
+.accordian-header{
+    font-size:45px ;
+    font-family:var(--font-family) ;
+    font-weight: 300;
+}
+
+
+.accordian-heading {
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.accordian{
+    background-color: var(--theme-white);
+    padding-bottom: 100px;
+}
+
+.accordian-icon {
+    border: 1px solid #c7c2c2;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.accordian-span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #9c9d9f;
+}
+
+.accordian-para {
+    padding-top: 20px;
+    display: none; 
+}
+
+.accordian-para.active {
+    display: block;
+    position: relative;
+}
+
+
+.accordian-faqs{
+    border-bottom: 1px solid #cbcbcf;
+    padding-top: 46px;
 }
 

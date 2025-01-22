@@ -66,10 +66,11 @@
     .meditation-text{
         padding-left: 30px;
         padding-top: 70px;
+        padding-bottom: 70px;
+        padding-right: 30px;
     }
     .right-section img{
         width: 100%;
-        margin-top: 120px;
         height: 100vh;
     }
     .mediation-span{
@@ -79,6 +80,13 @@
         display: none;
     }
     
+    .card-text {
+        padding-top: 25px;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-bottom: 25px;
+    }
+
     .heading-1{
         font-size: 30px;
         display: block;
@@ -148,7 +156,9 @@
         text-align: center;
         width: 100%;
         padding-top:70px ;
-        padding-bottom:100px ;
+        padding-bottom:70px ;
+        padding-left: 30px;
+        padding-right: 30px;
     }
     
     .primary-heading{
@@ -170,8 +180,10 @@
     .secondary-text{
         text-align: left;
         padding-left: 40px;
+        padding-right: 40px;
     }
     
+
     .secondary-header{
         font-size: 12px;
         color: #aba6a6;
@@ -185,7 +197,7 @@
     }
     
     .secondary-para strong{
-        font-size: 40px;
+        font-size: 35px;
         color: var(--theme-blue);
         font-family: var(--font-family);
         font-weight: 400;
@@ -198,7 +210,8 @@
         font-weight: 400;
     }
     .meditation-inner{
-        display: block;
+        display: flex ;
+        flex-direction: column-reverse;
     }    
 
     .meditation-heading{
@@ -208,14 +221,22 @@
     .meditation-text{
         padding-left: 30px;
         padding-top: 70px;
+        padding-bottom: 70px;
+        padding-right: 30px;
     }
     .right-section img{
         width: 100%;
-        margin-top: 120px;
+        /* margin-top: 120px; */
+        height: auto;
     }
     .mediation-span{
         font-size: 10px;
     }
+
+    .left-section{
+       padding-right: 0;
+    }
+
     .hero-section {
         flex-direction: column;
         justify-content: flex-start;
@@ -276,8 +297,17 @@
     }
 
     .card-main {
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
+
+    .card-text{
+        padding-top: 25px;
+        padding-left: 35px;
+        padding-bottom: 25px;
+        padding-right: 35px;
+    }
+
     .ternory-card{
         display: block;
     }
