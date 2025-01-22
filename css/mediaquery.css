@@ -4,6 +4,7 @@
     }
 }
 
+
 @media screen and (max-width:768px) {
     .unorderlist{
         display: none;
@@ -149,13 +150,6 @@
         flex-direction: column;
     }
 
-    .right-section-text {
-        padding-left: 80px;
-        padding-right: 80px;
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-
     .accordian-inner {
         background-color: #F8F8F8;
         width: 100%;
@@ -163,8 +157,11 @@
         padding-top: 100px;
         padding-left: 100px;
         padding-right: 100px;
-        padding-bottom: 100px;
-        
+        padding-bottom: 100px;        
+    }
+
+    .practise-head{
+        font-size: 40px;
     }
 }
 
@@ -246,8 +243,6 @@
     }
     .right-section img{
         width: 100%;
-        /* margin-top: 120px; */
-        height: auto;
     }
     .mediation-span{
         font-size: 10px;
@@ -391,5 +386,40 @@
 
     .ternory-list-span, .forth-list-span {
         font-size: 8px;  
+    }
+
+    .practise-inner{
+        width: 100%;
+    }
+
+    .accordian-header{
+        font-size: 32px;
+    }
+    .accordian-inner{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .accordian-heading {
+        font-size: 14px;
+        font-weight: 400;
+        cursor: pointer;
+        display: flex ;
+        justify-content: space-between;
+        align-items: center;
+    }   
+     
+    .about-right-section{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .process-btn {
+        font-size: 12px;
+    }
+    .touch-btn{
+        font-size: 12px;
+    }
+    .practise-head {
+        font-size: 40px;
     }
 }

@@ -743,6 +743,7 @@ a {
 
 .practise-inner{
     padding-top: 200px;
+    padding-bottom: 100px;
 }
 
 .practise{
@@ -804,31 +805,31 @@ a {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .about-left-section {
     flex: 1; 
-
 }
 
 .about{
-  padding-top: 100px;
+  background-color: var(--theme-white);
 }
 
 .right-section-text {
-    padding-left: 80px; 
     align-items: center;
 }
 
 .about-right-section {
     flex: 1;
+    padding-left: 80px; 
+    padding-right: 80px;
 }
 
 .right-section-head{
     color: #b9b4b4;
     font-size: 14px;
     font-weight: 500;
+    padding-top: 100px;
 }
 
 .right-section-heading{
@@ -846,6 +847,16 @@ a {
     padding-bottom: 30px;
 }
 
+.about-left-section{
+    flex: 1;
+}
+
+.about-left-section img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
 .touch-button{
    font-size: 22px;
    color: #cbcbcf;
@@ -853,6 +864,7 @@ a {
    display: flex;
    align-items: center;
    flex-direction: row;
+   padding-bottom: 100px;
 }
 
 .touch-button:hover{
