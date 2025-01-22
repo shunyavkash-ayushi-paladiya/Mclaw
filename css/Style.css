@@ -173,6 +173,10 @@ a {
     color: #F8F8F8;
 }
 
+.what-button:hover{
+    background-color: #2b3f71;
+}
+
 .case-button {
     border: 1px solid var(--theme-white);
     border-radius: 50px;
@@ -182,6 +186,11 @@ a {
     font-family: var(--font-family);
     font-weight: 500;
     color: #F8F8F8;
+}
+
+.case-button:hover{
+    background-color:#F8F8F8;
+    color: #192647;
 }
 
 /* Primary section */
@@ -268,6 +277,10 @@ a {
     display: flex;
     align-items: center;
     flex-direction: row;
+}
+
+.secondary-anchor:hover{
+    color: #2d437d;
 }
 
 .slideshow-container {
@@ -404,6 +417,11 @@ a {
     height: 40px;
     text-align: center;
     padding-top: 7px;
+    transition: transform 0.3s ease;
+}
+
+.svg-icon.rotated {
+    transform: rotate(180deg);
 }
 
 .mediation-span {
@@ -418,9 +436,31 @@ a {
     background-color:#F8F8F8 ;
 }
 
-.meditation-para.active {
+
+.meditation-heading {
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.meditation-para {
+    display: none; 
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease-out;
+}
+
+.mediation-span {
+    font-size: 14px;
+    color: #666;
+}
+
+.meditation-para.open {
     display: block;
-    position: relative;
+    max-height: 1000px;
 }
 
 
@@ -471,6 +511,11 @@ a {
     box-sizing: border-box;
 }
 
+.card-anchor:hover{
+    background-color: var(--theme-blue);
+    color: var(--theme-white);
+}
+
 .card-main{
     padding-top: 25px;
     display: grid;
@@ -506,6 +551,11 @@ a {
     height: 45px;
     text-align: center;
     padding-top: 6px;
+}
+
+.card-icon:hover{
+    border:1px solid #949494 ;
+    color: #2d437d;
 }
 
 .card-header{
@@ -560,6 +610,11 @@ a {
     white-space: none;
     box-sizing: border-box;
     font-family: var(--font-family);
+}
+
+.third-party-anchor:hover{
+    background-color: var(--theme-white);
+    color: var(--theme-blue);
 }
 
 /* blank section  */

@@ -16,10 +16,14 @@
               <div class="header-inner">
                   <div class="header-text">
                      <h1 class="heading-1">
+                        <a href="home.html">
                         p.mcLoughlin
+                      </a>
                      </h1>
                      <h1 class="heading">
-                         peter mcLoughlin
+                        <a href="home.html">
+                            peter mcLoughlin
+                         </a>
                      </h1>
                      <span class="heading-span">
                         | Civil and Commercial Mediator 
@@ -226,6 +230,7 @@
                     </div>
                 </div>
     
+    
                 <!-- Right section with image -->
                 <div class="right-section">
                     <img src="../images/Rectangle 662.png" alt="Mediation Process Image"/>
@@ -414,13 +419,17 @@
           $(".options").toggleClass("active");
         });
 
-    function toggleContent(icon) {
+        function toggleContent(icon) {
     const content = icon.closest('.meditation-div').nextElementSibling;
-    content.classList.toggle('active');
-
-    const heading = icon.closest('.meditation-heading'); 
-    heading.classList.toggle('active'); 
-   }
+    
+    if (content.classList.contains('open')) {
+        content.classList.remove('open');
+        icon.classList.remove('rotated');
+    } else {
+        content.classList.add('open');
+        icon.classList.add('rotated');
+    }
+}
 
    let slideIndex = 1;
 showSlides(slideIndex);
