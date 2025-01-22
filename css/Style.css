@@ -398,9 +398,9 @@ a {
     font-size: 18px;
     font-weight: 400;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-between; 
     background-color:#F8F8F8 ;
+    color: #192647;
 }
 
 .meditation{
@@ -413,10 +413,10 @@ a {
     font-weight: 400;
     border: 1px solid #afb0b2;
     border-radius: 50px;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     text-align: center;
-    padding-top: 7px;
+    padding-top: 5px;
     transition: transform 0.3s ease;
 }
 
@@ -472,8 +472,8 @@ a {
 
 .faqs{
     border-bottom: 1px solid #cbcbcf;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
  /* card section  */
@@ -775,6 +775,11 @@ a {
     color: var(--theme-white);
 }
 
+.process-btn:hover{
+    background-color:#2b3f71;
+    color: var(--theme-white);
+}
+
 .touch-btn {
     border: 1px solid #EBEBEB;
     border-radius: 50px;
@@ -785,6 +790,11 @@ a {
     font-family: var(--font-family);
     font-weight: 600;
     color: var(--theme-blue);
+}
+
+.touch-btn:hover{
+    background-color:#F8F8F8;
+    color: #192647;
 }
 
 /* <!-- hero section --> */
@@ -839,7 +849,18 @@ a {
 .touch-button{
    font-size: 22px;
    color: #cbcbcf;
+   font-weight: 400;
+   display: flex;
+   align-items: center;
+   flex-direction: row;
 }
+
+.touch-button:hover{
+    color: #99999d;
+}
+
+
+
 
 
 /* accordian section  */
@@ -850,30 +871,26 @@ a {
     text-align: left;
     padding-top: 180px;
     padding-left: 200px;
+    padding-bottom:180px ;
+    padding-right: 200px;
 }
 
 
 .accordian-text {
     align-items: center;
     font-size: 14px;
-    font-weight: 500;
-    color: #9c9d9f;
-}
-
-
-
-.accordian-head {
-    font-size: 12px;
-    color: #b6b5b5;
-    text-transform: uppercase;
     font-weight: 400;
+    color: #9c9d9f;
+    border-bottom: 1px solid #c7c2c2;
+    padding-bottom: 20px;
 }
-
 
 .accordian-header{
     font-size:45px ;
-    font-family:var(--font-family) ;
     font-weight: 300;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    color: #192647;
 }
 
 
@@ -918,6 +935,40 @@ a {
 
 .accordian-faqs{
     border-bottom: 1px solid #cbcbcf;
-    padding-top: 46px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.accordian-para {
+    padding-top: 20px;
+    display: none; 
+    background-color:#F8F8F8 ;
+}
+
+
+.accordian-heading {
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordian-para {
+    display: none; 
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease-out;
+}
+
+.accordian-span {
+    font-size: 14px;
+    color: #666;
+}
+
+.accordian-para.open {
+    display: block;
+    max-height: 1000px;
 }
 
